@@ -16,9 +16,23 @@ Além disso o GIT permite integração entre repositórios, o que chamamos de **
 
 ## **2. COMANDOS**
 
-### 2.1.1 CRIAR REPOSITORIO
+### 2.1 Configurações do usuário
 
-- Iniciar repositorio: git init
+- Configurar nome do usuário:
+
+  ```bash
+  git config --global user.name "[nome-do-usuario]"
+  ```
+
+- Configurar email do usuário:
+
+  ```bash
+  git config --global user.email "[email-do-usuario]"
+  ```
+
+### **2.2 Criar repositórios*
+
+- Iniciar repositorio:
   
   ```bash
   git init
@@ -26,7 +40,7 @@ Além disso o GIT permite integração entre repositórios, o que chamamos de **
 
   > :bulb: **INFO:** Este comando permite também reiniciar um repositório ja existente
 
-- Clonar a partir de repositorio remoto: git clone
+- Clonar a partir de repositorio remoto:
   
   ```bash
   git clone [url-do-repositorio]
