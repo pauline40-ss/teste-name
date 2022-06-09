@@ -2,7 +2,7 @@
 
 *[HOME](../README.md)** > GIT > SOBRE
 
-## **1. SOBRE** {#git-sobre}
+## **1. SOBRE**
 
 O Git é uma ferramenta usada para versionamento de artefatos de software, assim como SVN e CVS.
 
@@ -12,17 +12,27 @@ Além disso o GIT permite integração entre repositórios, o que chamamos de **
 
 - **Local**: Mantém artefatos na maquina do usuário  que realiza gerenciamento dos artefatos.
 
-- **Remoto**: Mantém a cópia do repositório local. Permite também que múltiplos repositórios sincronizem informações realizando procedimento de merge(mesclagem), gerando uma versão integra de um artefato gerenciado por múltiplos usuários.
+- **Remoto (Upstream)**: Mantém a cópia do repositório local. Permite também que múltiplos repositórios sincronizem informações realizando procedimento de merge(mesclagem), gerando uma versão integra de um artefato gerenciado por múltiplos usuários.
 
-## **COMANDOS** {#git-comandos}
+## **2. COMANDOS**
 
-- Iniciar repositorio {#git-init}
+### 2.1.1 CRIAR REPOSITORIO
+
+- Iniciar repositorio: git init
   
   ```bash
   git init
   ```
 
-## **3. REFERÊNCIAS** {#git-referencias}
+  > :bulb: **INFO:** Este comando permite também reiniciar um repositório ja existente
+
+- Clonar a partir de repositorio remoto: git clone
+  
+  ```bash
+  git clone [url-do-repositorio]
+  ```
+
+## **3. REFERÊNCIAS**
 
 - [git-scm.com](https://git-scm.com)
 - [git-book](https://git-scm.com/book/pt-br/v2)
